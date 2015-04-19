@@ -1,7 +1,79 @@
-body {background: #ffffff; margin: 0; padding: 0;} 
-a {color: #2b2bf6;}           
-#container {width: 900px; margin: 0; padding: 0; background: #dddddd;}           
-#header {width: 900px; 	height: 150px; 	margin: 0; padding: 0; border: 0; background: #f346e1;}           
-#sidebar {width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #f0e811;}           
-#content {width: 700px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #8be0ef;}           
-#footer {width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #000000; clear:both;}                            
+body {background: #B40404; margin: 0; padding: 0;} 
+
+#wrapper {
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+	min-width: 1750px;
+	text-align: left;
+	position: relative;
+}
+
+#maincontent {
+	margin: 80px 10% 0px 10%;
+	padding: 0px;
+	width: 80%;
+	min-width: 1400px;
+	height: 1500px;
+	text-align: left;
+	position: absolute;
+	box-shadow: 2px 2px 10px #2E2E2E;
+}
+
+#header {
+	margin: 0px;
+	width: 100%;
+	height: 300px;
+	text-align: left;
+	position: absolute;
+	z-index: 50;
+	box-shadow: 0px 0px 5px #888888;
+}
+
+#leftblock {
+	margin-left: 2%;
+	margin-top: 320px;
+	min-width: 420px;
+	width: 30%;
+	height: 500px;
+	text-align: left;
+	position: absolute;
+	z-index: 50;
+	box-shadow: 3px 3px 5px #888888;
+}
+
+#mainblock {
+	margin-left: 36%;
+	margin-top: 320px;
+	min-width: 420px;
+	width: 62%;
+	height: 500px;
+	text-align: left;
+	position: relative;
+	z-index: 50;
+	box-shadow: 3px 3px 5px #888888;
+}
+
+.ProfImage {
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-right: 5%;
+	float: left;
+	box-shadow: 3px 3px 5px #1C1C1C;
+}
+
+.mainskin {
+	background: #F2F2F2;
+}
+
+.bgskin {
+	background: #B40404;
+}
+
+.headerskin {
+	background: #ffffff;
+}
+
+.blockskin {
+	background: #B40404;
+}
